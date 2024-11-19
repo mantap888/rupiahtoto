@@ -9,6 +9,8 @@ const mobileIdn = {
 
   gambarbanner: "https://tek2k9.xyz/asetrp/rupiahnewgif.webp",
 
+  gambarbanner2: "https://tek2k9.xyz/asetrp/rupiahnewgif.webp",
+
   linkapk: "#linkapk",
 
   gambarpopup: "#GAMBARLINKPOPUP",
