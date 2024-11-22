@@ -1,0 +1,287 @@
+:root {
+ --w-color: #ffffff;
+ --b-color: #000000;
+ --t1-color: #ffecad;
+ --t2-color: #ffdf7e;
+ --t3-color: #fed24c;
+ --t4-color: #fdc51b;
+ --t5-color: #e4ac02;
+--t6-color: #4d3900;
+ --o-color: #1c1300;
+ --o2-color: #ffe000;
+ --o3-color: #ffa400;
+}
+
+.lobby-content-top {
+
+background: var(--o-color) !important;
+border-bottom: 2px solid var(--o2-color) !important;
+
+}
+
+.lobby-content-top .mb-lobby-username {
+color: var(--o2-color) !important;
+}
+
+#bal-text {
+color: var(--w-color);
+font-weight: bold;
+}
+
+.lobbyadscustom {
+display: flex;
+gap: 1rem;
+flex-direction: column;
+}
+
+.lobbyadscustom a img {
+width: 100%;
+border-radius: 1rem;
+border: 3px solid var(--t1-color);
+}
+
+.lobbyadscustom a:last-child {
+background: linear-gradient(103deg, var(--o-color) 0%, var(--t5-color) 30%, var(--t4-color) 40%, var(--t3-color) 60%, var(--t6-color) 90%, var(--o-color) 100%) !important;
+padding: 1.2rem;
+color: var(--b-color) !important;
+border-radius: 18px 0px;
+box-shadow: inset 0px 0px 0px 1px var(--t2-color), inset 0px 2px 0px 0px var(--t2-color), inset 0px 0px 0px 2px var(--t3-color), 3px 3px 3px 1px rgb(0 0 0 / 20%) !important;
+font-size: 1.4rem;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+header .header-wrapper {
+background-color: var(--t6-color) !important;
+border-bottom: 2px solid var(--o2-color) !important;
+}
+
+header.header-after-login .header-wrapper .buttn-header-deposit, .btn-refresh-balance, a.buttonWrap.buttonlc2.button-orange, .games-btn-container .btn-games-wrapper .btn-game-hs {
+
+background : linear-gradient(181deg, var(--t5-color) 0%, var(--t6-color) 100%) !important;
+color: var(--w-color) !important;
+padding: .7rem 1rem;
+border: 2px solid var(--t2-color) !important;
+font-weight: bolder !important;
+text-transform: uppercase !important;
+box-shadow: inset 0px 0px 0px 1px var(--t5-color), inset 0px 2px 0px 0px var(--t6-color), inset 0px 0px 0px 2px var(--t4-color), 3px 3px 3px 1px rgb(0 0 0 / 20%) !important;
+
+}
+
+.sidebar-shortcuts > .buttonlc {
+width: 10rem !important;
+}
+
+.sidebar-shortcuts  {
+height: 60px !important;
+}
+
+.games-btn-container .btn-games-wrapper .btn-game-hs {
+
+font-size: 1.2rem !important;
+}
+
+.button-lobby-container .button-lobby-wrapper>.button-filter-lobby, #togelall, #minigame, #semua, #slot, #carigame, .btn.btn-theme, button.btn-theme  {
+background: linear-gradient(103deg, var(--o-color) 0%, var(--t5-color) 30%, var(--t4-color) 40%, var(--t3-color) 60%, var(--t6-color) 90%, var(--o-color) 100%) !important;
+background-size: 300% 300% !important;
+border: 1px solid var(--t4-color) !important;
+border-radius: 18px 0px;
+color: var(--w-color) !important;
+font-weight: bold !important;
+font-size: 1rem !important;
+box-shadow: inset 0px 0px 0px 1px var(--t2-color), inset 0px 2px 0px 0px var(--t2-color), inset 0px 0px 0px 2px var(--t3-color), 3px 3px 3px 1px rgb(0 0 0 / 20%) !important;
+text-transform : uppercase !important;
+}
+
+.main-content, .main, .slot-wrapper, .slot-content {
+background-color: var(--t6-color) !important;
+}
+
+.page-header {
+background: var(--t6-color) !important;
+}
+
+
+.game-togel a.game-lobby-content, #game-live a.game-lobby-content, div#lobtoto>a, .button-icons2.button-extra-big2.button-grey-pale {
+    background: url("https://cdn.linkadsku.xyz/rupiah/borderrp.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.game-togel .lobby-game-angka-keluar, div#lobtoto>a>div.angka-keluar {
+font-size: 2.8rem !important;
+font-weight: bold !important;
+}
+
+.button-icons2.button-extra-big2.button-grey-pale > .angka-keluar {
+font-size: 1.7rem !important;
+font-weight: bold !important;
+}
+
+.button-icons2.button-extra-big2.button-grey-pale > .nama-pasar {
+font-size: 1.2rem !important;
+font-weight: bold !important;
+}
+
+
+.input-cari-wrapper input#cari-game {
+border-radius: 50rem !important;
+    text-align: center;
+    border: 1px solid var(--t1-color) !important;
+    background: var(--o-color);
+    color: var(--w-color) !important;
+}
+
+.mb-sidenav .side-link-container>li {
+background: linear-gradient(to bottom, var(--t4-color) 0%, var(--o-color) 100%) !important;
+}
+
+
+.mb-sidenav .sidenav-header {
+background-color: var(--t6-color) !important;
+}
+
+.mb-sidenav .sidenav-scroll {
+padding-bottom: 1rem !important;
+}
+
+.inner-wrap, .body-mobile main {
+background: var(--t6-color) !important;
+}
+
+.panel-grey {
+background: var(--o-color) !important;
+box-shadow: inset 0 0 5px 3px var(--t2-color), inset 0 2px 0 0 #fff, inset 0 0 0 2px var(--t3-color), 3px 3px 3px 1px rgba(0,0,0,.2)!important;
+text-align: center !important;
+margin-bottom: 1rem !important;
+}
+
+#deposit { 
+background: var(--t6-color) !important;
+color: var(--w-color) !important;
+font-size: 2rem !important;
+padding: 1.3rem !important;
+font-weight: bold !important;
+}
+
+.tab-wrapper .tablinks-deposit.active {
+background-color: var(--o2-color) !important;
+}
+
+.tab-wrapper>button:last-child {
+color: var(--b-color) !important;
+font-weight: bold !important;
+font-size: 1.6rem !important;
+text-transform: uppercase !important;
+}
+
+.buttonlc {
+width: 100px !important;
+}
+
+.header-logo {
+width: 200px !important;
+}
+
+.peraturan-content {
+color: var(--w-color) !important;
+line-height: normal !important;
+}
+
+.peraturan-content br {
+margin-top: 1rem !important;
+margin-bottom: 1rem !important;
+}
+
+
+.inner-wrap > .color-grey, .ha1 {
+color: var(--w-color) !important;
+}
+
+.inner-wrap > .panel-blue {
+background: linear-gradient(to bottom, var(--t3-color) 0%, var(--t6-color) 100%) !important;
+  box-shadow: inset 0 0 5px 3px #2a2a2e,inset 0 2px 0 0 #fff,inset 0 0 0 2px #2f2f33,3px 3px 3px 1px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  border-bottom: 4px solid #56565a;
+  border-radius: 0 !important;
+}
+
+.history {
+font-size: 14px !important;
+}
+
+.navigation-item {
+background: linear-gradient(to bottom, var(--t5-color) 0%, var(--t6-color) 100%) !important;
+}
+
+.mobilemenuwrap {
+background: linear-gradient(to bottom, var(--t5-color) 0%, var(--t6-color) 100%) !important;
+box-shadow: inset 0px 0px 0px 1px var(--t3-color), inset 0px 2px 0px 0px var(--t4-color), inset 0px 0px 0px 2px var(--t2-color), 3px 3px 3px 1px rgb(0 0 0 / 20%) !important;
+padding: 1rem;
+padding-left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.mobilemenuwrap a {
+color: var(--w-color);
+width: 90%;
+font-weight: bold;
+padding: 0.5rem;
+text-align: center;
+border-radius: 10rem;
+border: 0.2rem solid var(--t5-color);
+background: var(--t6-color);
+}
+
+#refreshbalance {
+color: var(--o2-color) !important;
+font-size: 1.2rem !important;
+}
+
+body {
+background-color: var(--o-color) !important;
+color: var(--w-color) !important;
+}
+
+
+.game-wrapper .game-lobby-content .game-title {
+  font-size: 1.5rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.banner-promotion {
+  display: none !important;
+}
+
+.effect7 {
+ position: relative;
+
+}
+
+.icongamelobby {
+ position: absolute;
+ z-index: 1;
+ max-width: 3rem;
+ top: .7rem;
+ right: .8rem;
+animation: rotate 3s linear infinite;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
