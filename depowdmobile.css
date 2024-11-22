@@ -1,0 +1,122 @@
+@media only screen and (max-width:600px) {
+    #snackbar-mobile {
+        visibility: hidden;
+        width: 53rem;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        border-radius: 25px;
+        position: fixed;
+        font-family: Glory, sans-serif;
+        z-index: 99999999999999999999999999999999999999999999999999999999999999;
+        border: 2px solid var(--t3-color);
+        display: flex !important;
+        gap: 1rem;
+        align-items: center;
+        max-width: 95%;
+        height: auto;
+        left: 2%;
+        font-size: 62px !important;
+        bottom: 3%;
+        padding: .3rem;
+        transform: translateX(0)
+    }
+    .snackbar-mobile-icon {
+        max-width: 2rem;
+        padding-right: .6rem
+    }
+    .snackbar-mobile-img {
+        max-width: 1.5rem;
+        margin-left: 1rem
+    }
+    #snackbar-mobile.tampil {
+        visibility: visible;
+        -webkit-animation: .8s fadein, .8s 4.5s fadeout;
+        animation: .8s fadein, .8s 4.5s fadeout
+    }
+    @-webkit-keyframes fadein {
+        from {
+            bottom: 0;
+            opacity: 0
+        }
+        to {
+            bottom: 3%;
+            opacity: 2
+        }
+    }
+    @keyframes fadein {
+        from {
+            bottom: 0;
+            opacity: 0
+        }
+        to {
+            bottom: 3%;
+            opacity: 2
+        }
+    }
+    @-webkit-keyframes fadeout {
+        from {
+            bottom: 3%;
+            opacity: 2
+        }
+        to {
+            bottom: 0;
+            opacity: 0
+        }
+    }
+    @keyframes fadeout {
+        from {
+            bottom: 3%;
+            opacity: 2
+        }
+        to {
+            bottom: 0;
+            opacity: 0
+        }
+    }
+    #snackbar-mobile span,
+    #snackbar-mobile strong {
+        font-weight: 700;
+        color: #ff0
+    }
+    .snackbar-mobile-nominal {
+        font-size: 1rem
+    }
+    #withdraw-mobile {
+        font-size: .8rem
+    }
+}
+
+
+.tigerloading {
+position: fixed;
+background: var(--o-color);
+width: 100%;
+height: 100%;
+z-index: 999999;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 1rem;
+}
+
+.tigerloading img {
+display block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: .5rem;
+max-width: 8rem;
+animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
