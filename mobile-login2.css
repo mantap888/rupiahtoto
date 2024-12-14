@@ -185,12 +185,18 @@ width: 200px !important;
 
 .peraturan-content {
 color: var(--w-color) !important;
-line-height: normal !important;
+line-height: 1.6rem !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
 }
 
 .peraturan-content br {
 margin-top: 1rem !important;
 margin-bottom: 1rem !important;
+}
+
+.peraturan-button-wrapper {
+margin-top: 1rem !important;
 }
 
 
