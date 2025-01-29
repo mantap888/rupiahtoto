@@ -1,0 +1,61 @@
+.cstmnewqris {
+border-radius: 5px;
+padding: 1rem;
+color: #000;
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+gap: 1rem;
+align-items: center;
+font-weight: bold;
+font-size: 12px;
+text-align: center;
+animation: goldBgChange 2s infinite alternate ease-in-out;
+
+}
+
+.cstmnewqris:focus {
+color: #000;
+}
+
+.qrisimgBaru {
+max-width: 100%;  
+animation: attentionShake 0.6s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes goldBgChange {
+  0% { background-color: #f8e1a1; } 
+  50% { background-color: #f4c667; } 
+  100% { background-color: #f8e1a1; }
+}
+
+@keyframes attentionShake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+#bank hr, .pesan-rahasia {
+display: none;
+}
+
+.pg-container .bg-grey {
+background-color: #000 !important;
+}
+
+.betdisinibtn {
+
+background : linear-gradient(101deg, var(--o2-color) 4%, var(--o3-color) 15%, var(--o3-color) 30%, var(--o2-color) 69%, var(--o3-color) 87%, var(--o2-color) 92%) !important;
+color: var(--o-color) !important;
+padding: .7rem 1rem;
+border: 2px solid var(--t2-color) !important;
+border-radius: 1rem;
+font-weight: bolder !important;
+text-transform: uppercase !important;
+box-shadow: inset 0px 0px 0px 1px var(--o2-color), inset 0px 2px 0px 0px var(--o2-color), inset 0px 0px 0px 2px var(--o3-color), 3px 3px 3px 1px rgb(0 0 0 / 20%) !important;
+
+}
